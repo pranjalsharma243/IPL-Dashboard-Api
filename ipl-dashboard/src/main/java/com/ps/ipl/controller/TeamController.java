@@ -17,7 +17,7 @@ import com.ps.ipl.service.TeamService;
 public class TeamController {
 @Autowired
 private TeamService ts;
-@GetMapping("/team")
+@GetMapping("/teams")
 @CrossOrigin
   
    public Iterable<Team> getAllTeams()
