@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'pranjal'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_94980F6A6B184849AA0B4A0FC25A6F13 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DDD836D2A8F94DDC98337BF3A697D591 }}
           package: '*.jar'
